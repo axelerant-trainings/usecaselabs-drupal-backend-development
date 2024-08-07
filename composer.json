@@ -33,7 +33,9 @@
             "drupal/core-project-message": true,
             "phpstan/extension-installer": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "php-http/discovery": true
+            "php-http/discovery": true,
+            "phpro/grumphp-shim": true,
+            "axelerant/drupal-quality-checker": true
         },
         "sort-packages": true
     },
@@ -93,5 +95,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "axelerant/drupal-quality-checker": "^1.4"
     }
 }
