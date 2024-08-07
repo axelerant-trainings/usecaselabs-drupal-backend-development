@@ -21,6 +21,11 @@
 # macOS related files
 .DS_Store
 
+# From axelerant/drupal-quality-checker
+grumphp.yml.dist
+phpcs.xml.dist
+phpmd.xml.dist
+phpstan.neon.dist
 
 # Miscellaneous files
 .vscode
